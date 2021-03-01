@@ -1,0 +1,18 @@
+public class Main {
+  public static void main(String[] args){
+  byte num = 117;
+  System.out.println(num);
+  
+  short num2 = 5555;
+  System.out.println(num2);
+  
+  double num3 = 234.3455;
+  System.out.println(num);
+  
+  boolean num4 = true;
+  System.out.println(num4);
+  
+  char ch = 'A';
+  System.out.println(ch);
+}
+}
