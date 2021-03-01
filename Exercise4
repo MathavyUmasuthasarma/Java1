@@ -1,0 +1,20 @@
+public class Main {
+  public String address = "Dummy address";
+  public static void main(String[] args) {
+  
+  Main stu1 = new Main();
+  Main stu2 = new Main();
+  Main stu3 = new Main();
+  
+  System.out.println(stu1.address);
+  System.out.println(stu2.address);
+  System.out.println(stu3.address);
+  
+  stu2.address = "Updated address";
+  System.out.println(stu1.address);
+  System.out.println(stu2.address);
+  System.out.println(stu3.address);
+  
+  
+}
+}
