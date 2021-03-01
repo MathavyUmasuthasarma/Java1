@@ -1,0 +1,28 @@
+public class Main{
+	public static String myClassVar = "class or static variable";
+	
+  public void myMethod() {
+  	String myVar = "Local Variable";
+  	System.out.println(myVar);
+    }
+  
+ public static void main(String[] args) {
+ 	Main obj1 = new Main();
+    System.out.println(obj1.myClassVar);
+    
+    Main obj2 = new Main();
+    System.out.println(obj2.myClassVar);
+    
+    Main obj3 = new Main();
+    System.out.println(obj3.myClassVar);
+    
+    obj1.myClassVar = "Updated";
+    System.out.println(obj1.myClassVar);
+    System.out.println(obj2.myClassVar);
+    System.out.println(obj3.myClassVar);
+    
+     System.out.println(myClassVar);
+   	 myClassVar = "Updated";
+     System.out.println(myClassVar);
+  }
+}
