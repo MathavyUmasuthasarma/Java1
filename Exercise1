@@ -1,0 +1,12 @@
+public class Main{
+	
+  public void myMethod() {
+  	String myVar = "Local Variable";
+  	System.out.println(myVar);
+    }
+  
+ public static void main(String[] args) {
+ 	Main obj = new Main();
+    obj.myMethod();
+  }
+}
