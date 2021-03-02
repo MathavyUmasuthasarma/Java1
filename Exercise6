@@ -1,0 +1,22 @@
+public class Main {
+ public static void main(String[] args) {
+  	String str = "Hello" ;
+    String str1 = "Welcome";
+    
+    char ch = str.charAt(0);
+    System.out.println(ch);
+    char ch1 = str1.charAt(1);
+    System.out.println(ch1);
+    
+    int len = str.length();
+    System.out.println(len);
+    
+    String name = "Charile";
+    int age = 29;
+    
+    //System.out.println("My Name is" + name +  "Age is "  + age);
+    String details  = String.format("My Name is %s Age is %d" , name, age);
+    System.out.println(details);
+    
+}
+}
