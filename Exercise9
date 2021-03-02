@@ -1,0 +1,47 @@
+public class Main {
+  public static void main(String[] args) {
+  	//String str = "Hello" ;
+    //String str1 = "Welcome";
+    
+    //char ch = str.charAt(0);
+    //System.out.println(ch);
+    //char ch1 = str1.charAt(1);
+    //System.out.println(ch1);
+    
+    //int len = str.length();
+    //System.out.println(len);
+    
+    //String name = "Charile";
+    //int age = 29;
+    
+   // String address = "Jaffna";
+    //String str1 = address.substring(0, 3);
+    //System.out.println(str1);
+    
+    //String str2 = address.substring(2);
+   // System.out.println(str2);
+    
+   //String s1 = "HI";
+   //String s2 = "hi";
+   //boolean bool1 = s1.equals(s2);
+   //System.out.println(bool1);
+   
+   //boolean bool2 = s1.equalsIgnoreCase(s2);
+   //System.out.println(bool2);
+   
+  // String str = "";
+   //str.isEmpty();
+   
+   
+   String str1 = "Welcom";
+   String str2 = "back";
+   String conStr = str1.concat(str2);
+   System.out.println(conStr);
+   
+   String strVal = "Welcome";
+   String str3 = strVal.replace('e', 'H');
+   System.out.println(str3);
+   
+   
+  }
+}
