@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class Main {
+  public static void main(String[] args) {
+  
+   
+   String str1 = "Welcome";
+   String str2 = "back";
+   String conStr = str1.concat(str2);
+   System.out.println(conStr);
+   
+   String strVal = "Welcome";
+   String str3 = strVal.replace('e', 'H');
+   System.out.println(str3);
+   
+   String listItems = "apple,orange,banana";
+   String[] fruits = listItems.split(",");
+   System.out.println(fruits[0]);
+  System.out.println(Arrays.toString(fruits));
+
+   
+  }
+}
