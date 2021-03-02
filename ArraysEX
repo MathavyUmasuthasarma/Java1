@@ -1,0 +1,9 @@
+public class Main {
+ public static void main(String[] args) {
+ 	//int[] marks = new int[5];
+   int[] marks = {35,56,77,96};
+   for(int x = 0; x<marks.length ; x++) {
+   	System.out.println(marks[x]);
+  }
+}
+}
