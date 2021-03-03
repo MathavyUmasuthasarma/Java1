@@ -1,0 +1,23 @@
+
+
+public class Main {
+//create minnumber
+  public int getMinNumber(int n1,int n2) {
+ 	int min;
+  	if (n1<n2) {
+  		min = n1;
+   }
+    else {
+   		min = n2;
+   }
+    return min;
+  
+  public static void main(String[] args} {
+    Main ex1 = new Main();
+    int minNum = ex1.getMinNumber(5, 8);
+    System.out.println(minNum);
+  
+  	int minNum2 = ex1.getMinNumber(6, 1);
+    System.out.println(minNum2); 
+  }
+}
