@@ -1,0 +1,12 @@
+public class Main{
+	public static void main(String args[]){
+    	int[] arr = {22,1,45,9};
+        for (int num : arr) {
+        	System.out.println("the value of i is: " + num);
+            }
+         String strArray[]={"hi", "hello" , "bye"};
+         for (String str : strArray) {
+         	System.out.println(str);
+            }
+           } 
+          }
