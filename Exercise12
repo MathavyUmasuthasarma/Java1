@@ -1,0 +1,31 @@
+public class Main {
+  public void printNumbers(int...numbers)  {
+    for (int i=0; i<numbers.length; i++) {
+    	System.out.println(numbers[i]);
+  }
+}
+
+	public int getMaxNumber(int...numbers) {
+    	int max = numbers[0];
+        
+        
+        for(int i = 1; i<numbers.length; i++) {
+        	if (max <numbers[i]) {
+            	max = numbers[i];
+                
+               }
+               
+             }
+             
+         return max;
+       }
+       
+       
+     public static void main(String[] args) {
+     	Main obj = new Main();
+        int max = obj.getMaxNumber(23,45,54,67,12,34,89,54);
+        System.out.println(max);
+        
+        
+    }
+    }
