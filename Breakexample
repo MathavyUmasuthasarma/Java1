@@ -1,0 +1,14 @@
+public class Main {
+  public static void main(String[] args) {
+    	int[] numbers = {12,45,88,67,98,23};
+        int search= 88;
+        
+        
+        for (int num : numbers) {
+        	System.out.println(num);
+        	if (num == search) {
+            	System.out.println("found the input number");
+                break;
+      }
+      }
+   }}
