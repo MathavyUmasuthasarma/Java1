@@ -1,0 +1,15 @@
+public class Main {
+  public static void main(String[] args) {
+    	int var;
+        
+        for (var = 10; var>=1; var--) {
+        	System.out.println("var: " + var);
+            if (var==9) {
+            	break;
+            
+           }
+          }
+           System.out.println("outof for-loop");
+      }
+      
+   }
