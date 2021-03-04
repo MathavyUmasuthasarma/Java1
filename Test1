@@ -1,0 +1,14 @@
+package abcpackage;
+public class ABC {
+	private double num = 100;
+    private int square(int n1) {
+    	return n1* n1;
+     }
+     
+     
+  	public static void main(String[] args) {
+    ABC obj = new ABC();
+    int sq= obj.square(4);
+    System.out.println(sq);
+  }
+}
