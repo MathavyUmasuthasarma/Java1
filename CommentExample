@@ -1,0 +1,6 @@
+public class Main {
+  public static void main(String[] args) {
+  //let's declare and print variable in java
+    	int i=10;//here "i" is a variable
+        System.out.println(i);
+   }}
