@@ -1,0 +1,6 @@
+package abcpackage;
+public class Addition {
+	public int addTwoNumbers(int n1, int n2) {
+    	return n1 + n2;
+    }
+ }
