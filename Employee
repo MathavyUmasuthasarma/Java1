@@ -1,0 +1,27 @@
+public class Employee{
+  int empId;
+  String empName;
+  
+  Employee(int id, String name) {
+      this.empId =id;
+      this.empName = name;
+  }
+  
+  Employee(String name, int id) {
+      this.empId =id;
+      this.empName = name;
+  }
+  
+  void info(){
+      System.out.println("Id: "+empId+"Name: " + empName);
+      
+  }
+  
+  public static void main(String args[]){
+      Employee obj1 = new Employee(10245, "charlie");
+      Employee obj2 = new Employee(92262, "tesha");
+      Employee obj3 = new Employee("John", 2222222);
+      obj1.info();
+      
+  }
+}
