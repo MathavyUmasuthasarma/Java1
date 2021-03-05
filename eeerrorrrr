@@ -1,0 +1,32 @@
+public class Employee {
+  public Static void main(String[] args)
+    public String empName;
+    public int empSalary;
+    public String empAddress;
+    Employee() {
+        this("john");
+    }
+    
+    Employee(String name) {
+        this(name, 12000);
+    }
+    
+    Employee(String name, int salary){
+        this(name, salary, "Jaffna");
+        
+    }
+    Employee(String name,int salary, String address) {
+        Employee(String name, int salary, String address){
+            this.empName = name;
+            this.empSalary = salary;
+            this.empAddress = address;
+        }
+        public static void main(String[] args) {
+            Employee emp = new Employee();
+            System.out.println(emp.empName);
+            System.out.println(emp.empSalary);
+            System.out.println(emp.empAddress);
+            
+        }
+    }
+}}
