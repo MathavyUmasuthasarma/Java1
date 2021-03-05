@@ -1,0 +1,19 @@
+public class Main {
+ 	String webName;
+ 	int webAge;
+    
+    Main(String name, int age) {
+    	this.webName = name;
+        this.webAge = age;
+        }
+        
+   public static void main(String[] args) {
+  	 Main web1 = new Main("w3schools.com" , 23);
+   	 System.out.println(web1.webName);
+     System.out.println(web1.webAge);
+     
+     Main web2 = new Main("google", 18);
+     System.out.println(web2.webName);
+     System.out.println(web2.webAge);
+  }
+}
