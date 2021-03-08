@@ -1,0 +1,10 @@
+public class MyChildClass extends MyParentClass {
+        super();
+        System.out.println("MyChildClass Constructor");
+}
+public static void main(String args[] ) {
+    MyChildClass obj = new MyChildClass();
+}
+}
+    
+     
