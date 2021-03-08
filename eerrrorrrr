@@ -1,0 +1,16 @@
+public class vehicle {
+    String brand = "Ford";
+    public void honk(){
+        System.out.println("Tuut Tuut...");
+    }
+}
+
+public class Car extends Vehicle {
+    String modelName = "Mustang";
+    public static void main (String[] args){
+        Car ob= new Car();
+        System.out.println(ob.modelName);
+        System.out.println(ob.brand);
+        ob.honk();
+    }
+}
