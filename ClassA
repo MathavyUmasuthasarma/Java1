@@ -1,0 +1,15 @@
+ public class A{
+     public void m() {
+         System.out.println("hello m");
+         this.n();
+     }
+     
+     public void n() {
+         System.out.println("hello n");
+     }
+     public static void main(String[] args) {
+         A a = new A();
+         a.m();
+     }
+ } 
+   
