@@ -1,0 +1,30 @@
+ class StudentData{
+    int stuId;
+    String stuName;
+    int stuAge;
+    
+    StudentData() {
+        this.stuId = 102;
+        this.stuName = "Tharsi";
+        this.stuAge = 29;
+    }
+     
+    StudentData(int id,String name, int age) {
+        this.stuId = id;
+        this.stuName = name;
+        this.stuAge = age;
+    }
+    }
+    
+public class TestStudentData {
+    public static void main(String[] args) {
+        StudentData stu1= new StudentData();
+        System.out.println(stu1.stuName);
+        System.out.println(stu1.stuAge);
+        
+        StudentData stu2 = new StudentData(101, "John" , 12);
+        System.out.println(stu2.stuName);
+        System.out.println(stu2.stuAge);
+        
+    }
+}
