@@ -1,0 +1,24 @@
+ public abstract class Bike{
+   Bike() {
+       System.out.println("Bike created");
+       
+   }
+   void changeGear(){
+       System.out.println("running...");
+   }
+   public static void main(String[] args){
+       Honda ob=new Honda();
+       ob.run();
+       ob.changeGear();
+   }
+ }
+abstract class Bike{
+     Bike(){
+         System.out.println("Bike created");
+         
+     }
+     void changeGear(){
+         System.out.println("gear changed");
+     }
+     abstract void run();
+ }
