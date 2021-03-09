@@ -1,0 +1,33 @@
+public abstract class Animal {
+    String color;
+    String size;
+}
+    Animal(String color,String size) {
+        this.cololr = color;
+        this.size = size;
+    }
+    
+    void eat (){
+        System.out.println("Eating food");
+        
+    }
+    abstract void sound();
+    }
+    
+    
+public class Dog extends Animal{
+    Dog(String color,size){
+        super(color, size);
+    }
+    void sound(){
+        System.out.println("Dog makes sound of lol");
+    }
+class Cat extends Animal{ 
+        Cat(String color,String size) {
+            super(color, size);
+        void sound(){
+            System.out.println("")
+        }
+        }
+    }
+}
