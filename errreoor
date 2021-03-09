@@ -1,0 +1,18 @@
+public class Pig implements AnimalInterface{
+    public void animalSound(){
+        System.out.println("The pig says:wee wee");
+    }
+    
+
+public interface{
+    public void animalSound(){
+        System.out.println("zzz");
+    }
+    public static void main{String[] args){
+        Pig p1= new Pig();
+        p1.sleep();
+        p1.animalSound();
+    }
+        
+    }
+    
