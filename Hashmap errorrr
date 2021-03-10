@@ -1,0 +1,30 @@
+import java.util.HashMap;
+import java.util.Map;
+public static void main(String[] args){
+    HashMap<Interger,String> persons = new HashMap<>();
+    persons.put(100, "Amit");
+    persons.put(101, "Vijay");
+    persons.put(102, "Rahul");
+    persons.putIfAbsent(102,"Gaurav");
+    for(Map.Entry person: persons.entrySet()){
+        System.out.println(persons.entrySet()){
+            System.out.println(person.getKey()+" ," + person.getValue());
+        }
+        HashMap<Interger, String> students = new HashMap<>();
+        students.put(103, "Ravi");
+        students.put(104,"John");
+        persons.putAll(Students);
+        System.out.println("==============");
+        for(Map.Entry person: persons.entrySet()){
+            System.out.println(person.getKey()+" , "+ person.getValue());
+            
+        }
+        persons.replace(104,"sfgfdgdgd");
+        System.out.println(persons.get(104));
+        
+    }
+}
+public interface Map<K,V>{
+    int size();
+    
+}
