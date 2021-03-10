@@ -1,0 +1,23 @@
+import java.until.HasMap;
+import java.util.Map;
+public class HahMapDemo{
+    public static void main(String[] args){
+        HashMap<Integer, String> persons= new HashMap<>();
+        persons.put(100, "Amit");
+        persons.put(101, "Vijay");
+        persons.put(102, "Ragul");
+        
+        for(Map.Entry person: persons.entrySet()){
+            System.out.println(persons.getKey() + " , " + person.getValue());
+        }
+    }
+}
+
+public class HashMap<K,V> extends AbstractMap<K,V>
+    implements Map<K,V>,Cloneable, Serializable{
+    private static final long serialVersionUID =362498820763181265L; 
+    }
+    
+public interface Map<K, V>{
+    int size();
+}
