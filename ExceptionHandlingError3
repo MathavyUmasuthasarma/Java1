@@ -1,0 +1,14 @@
+public class ExceptionHandlingDemo{
+    public static void main(String[] args){
+        try{
+            int num1=0;
+            int num2=24/num1;
+            System.out.println(num2);
+            System.out.println("End of try block");
+            
+        }catch(ArithmeticException e){
+            System.out.println("Trying to divide a number by zero");
+        }
+        System.out.println("After try catch block");
+    }
+}
